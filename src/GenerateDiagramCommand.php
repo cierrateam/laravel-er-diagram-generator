@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\ErdGenerator;
+namespace Cierra\ErdGenerator;
 
-use BeyondCode\ErdGenerator\Model as GraphModel;
+use Cierra\ErdGenerator\Model as GraphModel;
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use phpDocumentor\GraphViz\Graph;
