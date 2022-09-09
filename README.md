@@ -1,9 +1,9 @@
 # Laravel ER Diagram Generator
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/beyondcode/laravel-er-diagram-generator.svg?style=flat-square)](https://packagist.org/packages/beyondcode/laravel-er-diagram-generator)
-[![Build Status](https://img.shields.io/travis/beyondcode/laravel-er-diagram-generator/master.svg?style=flat-square)](https://travis-ci.org/beyondcode/laravel-er-diagram-generator)
-[![Quality Score](https://img.shields.io/scrutinizer/g/beyondcode/laravel-er-diagram-generator.svg?style=flat-square)](https://scrutinizer-ci.com/g/beyondcode/laravel-er-diagram-generator)
-[![Total Downloads](https://img.shields.io/packagist/dt/beyondcode/laravel-er-diagram-generator.svg?style=flat-square)](https://packagist.org/packages/beyondcode/laravel-er-diagram-generator)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/cierrateam/laravel-er-diagram-generator.svg?style=flat-square)](https://packagist.org/packages/cierrateam/laravel-er-diagram-generator)
+[![Build Status](https://img.shields.io/travis/cierrateam/laravel-er-diagram-generator/master.svg?style=flat-square)](https://travis-ci.org/cierrateam/laravel-er-diagram-generator)
+[![Quality Score](https://img.shields.io/scrutinizer/g/cierrateam/laravel-er-diagram-generator.svg?style=flat-square)](https://scrutinizer-ci.com/g/cierrateam/laravel-er-diagram-generator)
+[![Total Downloads](https://img.shields.io/packagist/dt/cierrateam/laravel-er-diagram-generator.svg?style=flat-square)](https://packagist.org/packages/cierrateam/laravel-er-diagram-generator)
 
 This package lets you generate entity relation diagrams by inspecting the relationships defined in your model files.
 It is highly customizable.
@@ -13,7 +13,7 @@ Behind the scenes, it uses [GraphViz](https://www.graphviz.org) to generate the 
 
 ## Prerequisites
 
-The minimum required PHP version is 7.1.0.
+The minimum required PHP version is 7.1.0 - compatible to PHP 8.0
 
 ## Requirements
 
