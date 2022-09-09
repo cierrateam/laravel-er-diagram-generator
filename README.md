@@ -38,7 +38,7 @@ To install Graphviz on Windows, download it from the [official website](https://
 You can install the package via composer:
 
 ```bash
-composer require beyondcode/laravel-er-diagram-generator --dev
+composer require cierrateam/laravel-er-diagram-generator --dev
 ```
 
 If you are using Laravel 5.5+, the package will automatically register the service provider for you.
@@ -47,7 +47,7 @@ If you are using Lumen, you will need to add the following to `bootstrap\app.php
 
 ```php
 \\ Register Service Providers
-$app->register(BeyondCode\ErdGenerator\ErdGeneratorServiceProvider::class);
+$app->register(Cierra\ErdGenerator\ErdGeneratorServiceProvider::class);
 ```
 
 ## Usage
@@ -55,13 +55,13 @@ $app->register(BeyondCode\ErdGenerator\ErdGeneratorServiceProvider::class);
 By default, the package will automatically detect all models in your `app` directory that extend the Eloquent Model class. If you would like you explicitly define where your models are located, you can publish the configuration file using the following command.
 
 ```bash
-php artisan vendor:publish --provider=BeyondCode\\ErdGenerator\\ErdGeneratorServiceProvider
+php artisan vendor:publish --provider=Cierra\\ErdGenerator\\ErdGeneratorServiceProvider
 ```
 
 If you're using Lumen and you want to customize the config, you'll need to copy the config file from the vendor directory:
 
 ```bash
-cp ./vendor/beyondcode/laravel-er-diagram-generator/config/config.php config/erd-generator.php
+cp ./vendor/cierrateam/laravel-er-diagram-generator/config/config.php config/erd-generator.php
 ```
 
 ## Generating Diagrams
@@ -114,11 +114,12 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email marcel@beyondco.de instead of using the issue tracker.
+If you discover any security related issues, please email vittorio@cierra.de instead of using the issue tracker.
 
 ## Credits
 
 - [Marcel Pociot](https://github.com/mpociot)
+- [Vittorio Emmermann](https://github.com/vittoriodev) for forking
 - [All Contributors](../../contributors)
 
 ## License
