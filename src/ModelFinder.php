@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\ErdGenerator;
+namespace Cierra\ErdGenerator;
 
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Filesystem\Filesystem;
