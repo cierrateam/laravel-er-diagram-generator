@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\ErdGenerator;
+namespace Cierra\ErdGenerator;
 
 use phpDocumentor\GraphViz\Node;
 
