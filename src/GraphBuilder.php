@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\ErdGenerator;
+namespace Cierra\ErdGenerator;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use phpDocumentor\GraphViz\Graph;
