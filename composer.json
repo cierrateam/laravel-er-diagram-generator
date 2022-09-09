@@ -1,17 +1,23 @@
 {
-    "name": "beyondcode/laravel-er-diagram-generator",
+    "name": "cierrateam/laravel-er-diagram-generator",
     "description": "Generate ER diagrams from your Laravel models.",
     "keywords": [
-        "beyondcode",
+        "cierra",
         "laravel-er-diagram-generator"
     ],
-    "homepage": "https://github.com/beyondcode/laravel-er-diagram-generator",
+    "homepage": "https://github.com/cierrateam/laravel-er-diagram-generator",
     "license": "MIT",
     "authors": [
         {
             "name": "Marcel Pociot",
             "email": "marcel@beyondco.de",
             "homepage": "https://beyondcode.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Vittorio Emmermann",
+            "email": "vittorio@cierra.de",
+            "homepage": "https://cierra.de",
             "role": "Developer"
         }
     ],
@@ -29,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BeyondCode\\ErdGenerator\\": "src"
+            "Cierra\\ErdGenerator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BeyondCode\\ErdGenerator\\Tests\\": "tests"
+            "Cierra\\ErdGenerator\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BeyondCode\\ErdGenerator\\ErdGeneratorServiceProvider"
+                "Cierra\\ErdGenerator\\ErdGeneratorServiceProvider"
             ]
         }
     }
